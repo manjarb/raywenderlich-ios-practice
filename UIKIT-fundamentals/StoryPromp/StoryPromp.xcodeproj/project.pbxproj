@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C5F7CA5272C02F700998277 /* StoryPrompts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5F7CA3272C02F700998277 /* StoryPrompts.swift */; };
+		4C5F7CA6272C02F700998277 /* StoryPromptEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5F7CA4272C02F700998277 /* StoryPromptEntry.swift */; };
 		4C6D6D7B272BFA2D00F7CF9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6D6D7A272BFA2D00F7CF9A /* AppDelegate.swift */; };
 		4C6D6D7D272BFA2D00F7CF9A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6D6D7C272BFA2D00F7CF9A /* SceneDelegate.swift */; };
 		4C6D6D7F272BFA2D00F7CF9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6D6D7E272BFA2D00F7CF9A /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C5F7CA3272C02F700998277 /* StoryPrompts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryPrompts.swift; sourceTree = "<group>"; };
+		4C5F7CA4272C02F700998277 /* StoryPromptEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryPromptEntry.swift; sourceTree = "<group>"; };
 		4C6D6D77272BFA2D00F7CF9A /* StoryPromp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryPromp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C6D6D7A272BFA2D00F7CF9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C6D6D7C272BFA2D00F7CF9A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +75,8 @@
 		4C6D6D8E272BFA9500F7CF9A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4C5F7CA4272C02F700998277 /* StoryPromptEntry.swift */,
+				4C5F7CA3272C02F700998277 /* StoryPrompts.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -146,9 +152,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C5F7CA6272C02F700998277 /* StoryPromptEntry.swift in Sources */,
 				4C6D6D7F272BFA2D00F7CF9A /* ViewController.swift in Sources */,
 				4C6D6D7B272BFA2D00F7CF9A /* AppDelegate.swift in Sources */,
 				4C6D6D7D272BFA2D00F7CF9A /* SceneDelegate.swift in Sources */,
+				4C5F7CA5272C02F700998277 /* StoryPrompts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
