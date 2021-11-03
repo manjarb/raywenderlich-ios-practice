@@ -29,5 +29,10 @@ class StoryPromptViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    
+    @IBAction func cancelStorpPrompt(_ sender: Any) {
+        print("2222")
+        performSegue(withIdentifier: "CantcelStorpPrompt", sender: nil)
+    }
+    
 }

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4C82DF21273275B200D42416 /* StoryPromptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C82DF20273275B200D42416 /* StoryPromptViewController.swift */; };
+		74E858F5273302BB00637457 /* StoryPromptTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E858F4273302BB00637457 /* StoryPromptTableViewController.swift */; };
 		D3DDAF66251A9B8400BDC5A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DDAF65251A9B8400BDC5A5 /* AppDelegate.swift */; };
 		D3DDAF68251A9B8400BDC5A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DDAF67251A9B8400BDC5A5 /* SceneDelegate.swift */; };
 		D3DDAF6A251A9B8400BDC5A5 /* AddStoryPromptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DDAF69251A9B8400BDC5A5 /* AddStoryPromptViewController.swift */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		4C82DF20273275B200D42416 /* StoryPromptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryPromptViewController.swift; sourceTree = "<group>"; };
+		74E858F4273302BB00637457 /* StoryPromptTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryPromptTableViewController.swift; sourceTree = "<group>"; };
 		D3DDAF62251A9B8400BDC5A5 /* StoryPrompt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryPrompt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3DDAF65251A9B8400BDC5A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3DDAF67251A9B8400BDC5A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -46,6 +48,7 @@
 		4C82DF22273275BB00D42416 /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
+				74E858F4273302BB00637457 /* StoryPromptTableViewController.swift */,
 				D3DDAF69251A9B8400BDC5A5 /* AddStoryPromptViewController.swift */,
 				4C82DF20273275B200D42416 /* StoryPromptViewController.swift */,
 			);
@@ -162,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74E858F5273302BB00637457 /* StoryPromptTableViewController.swift in Sources */,
 				4C82DF21273275B200D42416 /* StoryPromptViewController.swift in Sources */,
 				D3DDAF7E251A9FD600BDC5A5 /* StoryPrompts.swift in Sources */,
 				D3DDAF6A251A9B8400BDC5A5 /* AddStoryPromptViewController.swift in Sources */,
