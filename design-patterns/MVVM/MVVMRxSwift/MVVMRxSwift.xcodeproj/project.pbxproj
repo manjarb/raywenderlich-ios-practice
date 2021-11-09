@@ -14,6 +14,11 @@
 		4C8BF8ED27392ACA00180643 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C8BF8EB27392ACA00180643 /* Main.storyboard */; };
 		4C8BF8EF27392ACF00180643 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C8BF8EE27392ACF00180643 /* Assets.xcassets */; };
 		4C8BF8F227392ACF00180643 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C8BF8F027392ACF00180643 /* LaunchScreen.storyboard */; };
+		4C8BF8FC273A184A00180643 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8BF8FB273A184A00180643 /* Restaurant.swift */; };
+		4C8BF8FE273A192100180643 /* RestaurantService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8BF8FD273A192100180643 /* RestaurantService.swift */; };
+		4C8BF900273A24C800180643 /* restaurants.json in Resources */ = {isa = PBXBuildFile; fileRef = 4C8BF8FF273A24C800180643 /* restaurants.json */; };
+		4C8BF902273A253300180643 /* RestaurantsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8BF901273A253300180643 /* RestaurantsListViewModel.swift */; };
+		4C8BF904273A266300180643 /* RestaurantsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8BF903273A266300180643 /* RestaurantsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +32,11 @@
 		4C8BF8EE27392ACF00180643 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C8BF8F127392ACF00180643 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C8BF8F327392ACF00180643 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C8BF8FB273A184A00180643 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		4C8BF8FD273A192100180643 /* RestaurantService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantService.swift; sourceTree = "<group>"; };
+		4C8BF8FF273A24C800180643 /* restaurants.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = restaurants.json; sourceTree = "<group>"; };
+		4C8BF901273A253300180643 /* RestaurantsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantsListViewModel.swift; sourceTree = "<group>"; };
+		4C8BF903273A266300180643 /* RestaurantsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantsViewModel.swift; sourceTree = "<group>"; };
 		CC895D3049EB6F3DF4EC4DA0 /* Pods-MVVMRxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMRxSwift.release.xcconfig"; path = "Target Support Files/Pods-MVVMRxSwift/Pods-MVVMRxSwift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -48,7 +58,6 @@
 				41BE62AA193CFC05069365D2 /* Pods-MVVMRxSwift.debug.xcconfig */,
 				CC895D3049EB6F3DF4EC4DA0 /* Pods-MVVMRxSwift.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -80,6 +89,11 @@
 				4C8BF8EE27392ACF00180643 /* Assets.xcassets */,
 				4C8BF8F027392ACF00180643 /* LaunchScreen.storyboard */,
 				4C8BF8F327392ACF00180643 /* Info.plist */,
+				4C8BF8FB273A184A00180643 /* Restaurant.swift */,
+				4C8BF8FF273A24C800180643 /* restaurants.json */,
+				4C8BF8FD273A192100180643 /* RestaurantService.swift */,
+				4C8BF901273A253300180643 /* RestaurantsListViewModel.swift */,
+				4C8BF903273A266300180643 /* RestaurantsViewModel.swift */,
 			);
 			path = MVVMRxSwift;
 			sourceTree = "<group>";
@@ -152,6 +166,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C8BF900273A24C800180643 /* restaurants.json in Resources */,
 				4C8BF8F227392ACF00180643 /* LaunchScreen.storyboard in Resources */,
 				4C8BF8EF27392ACF00180643 /* Assets.xcassets in Resources */,
 				4C8BF8ED27392ACA00180643 /* Main.storyboard in Resources */,
@@ -207,8 +222,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C8BF8FC273A184A00180643 /* Restaurant.swift in Sources */,
+				4C8BF904273A266300180643 /* RestaurantsViewModel.swift in Sources */,
+				4C8BF902273A253300180643 /* RestaurantsListViewModel.swift in Sources */,
 				4C8BF8EA27392ACA00180643 /* ViewController.swift in Sources */,
 				4C8BF8E627392ACA00180643 /* AppDelegate.swift in Sources */,
+				4C8BF8FE273A192100180643 /* RestaurantService.swift in Sources */,
 				4C8BF8E827392ACA00180643 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
